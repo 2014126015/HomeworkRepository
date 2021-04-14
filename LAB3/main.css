@@ -1,0 +1,66 @@
+a
+{
+  text-decoration: none;
+  color: black;
+}
+p.inline_p
+{
+	display: inline;
+	text-decoration: overline underline;
+	text-decoration-color: red;
+} 
+hr
+{
+	height: 3px;
+	background-color: black;
+}
+h1
+{
+	color: black;
+	text-align: center;
+	font-family: verdana;
+	font-size: 30pt;
+}
+input.button_submit
+{
+	margin-right:-3px;
+}
+input.button_clear
+{
+	margin-left:-3px;
+}
+input.button_login
+{
+	margin-right:-3px;
+}
+
+input.button_signup
+{
+	margin-left: -3px;
+}
+
+input[type=button]
+{
+	padding: 5px;
+	
+	background-color: skyblue;
+	color:black;
+	width: 10%
+}
+
+input[type=submit]
+{
+	padding: 5px;
+	
+	background-color: yellowgreen;
+	color:black;
+	width: 10%
+}
+input[type=reset]
+{
+	padding: 5px;
+	
+	background-color: red;
+	color:black;
+	width: 10%	
+}

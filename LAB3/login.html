@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>인터넷프로그래밍과제2</title>
+	<link rel="stylesheet" type="text/css" href="main.css">	
+</head>
+<body>
+	<h1 id="login_marked">Welcome to INTERNET-PROGRAMMING SHOP</h1>
+	<a href = "index.html" class="a_unmarked">메인페이지</a><p class="inline_p">로그인</p><a href="./signup.html" class="a_unmarked">회원가입</a>
+	<hr>
+	<p>개인정보 (필수)</p>
+	<form>
+		<div>
+			<label for="userid" class="question_label">유저아이디:</label>
+			<input id="userid" type="text" placeholder="아이디를 입력하세요">
+		</div>
+		<div>
+			<label for="userpw" class="question_label">비밀번호:</label>
+			<input id="userpw" type="password" >
+		</div>
+		<div>
+			<label for="userpw2" class="question_label">비밀번호확인:</label>
+			<input id="userpw2" type="password" >
+		</div>
+		<div>
+			<input id="login" type="submit" value="로그인" class="button_login">
+			<input id="go_sign_up" type="button" value="회원가입" onclick="location.href='signup.html'" class="button_signup">
+		</div>
+	</form>
+	<hr>
+
+
+</body>
+</html>
+
