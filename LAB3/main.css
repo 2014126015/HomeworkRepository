@@ -1,13 +1,59 @@
-a
+
+body.main_body
 {
-  text-decoration: none;
-  color: black;
+	margin: 0 auto;
+	width: 1020px;
+	padding-left:100px;
 }
-p.inline_p
+header
+{
+	width: 980px;
+	font-size: 30pt;
+}
+footer
+{
+	width: 1020px;
+}
+div.box{
+	border: 1px solid black;
+	width: 500px;
+	height: 500px;
+	float: left;
+}
+div.box2{
+	border: 1px solid black;
+	width: 500px;
+	height: 500px;
+	float: left;
+	
+}
+div.box img{
+   width:100px;
+   height:100px;
+   transition-property:width, height;
+   transition-duration: 2s;
+	
+  }
+  
+div.box img:hover{
+	width: 500px;
+	height: 500px;
+	
+}
+p#hedge_info
+{
+	column-count: 2;
+	column-gap: 20px
+	column-width: 500px;
+	column-rule-style: outset;
+	column-rule-width: 2px;
+}
+span.inline_p
 {
 	display: inline;
 	text-decoration: overline underline;
 	text-decoration-color: red;
+	margin-right: 1px;
 } 
 hr
 {
@@ -20,6 +66,19 @@ h1
 	text-align: center;
 	font-family: verdana;
 	font-size: 30pt;
+}
+.header_text
+{
+	animation-duration: 2s;
+	animation-name: sliding;
+}
+@keyframes sliding
+{
+	0%{
+		 margin-right: 100%;
+	}100%{
+		margin-left: 705px;
+	}
 }
 input.button_submit
 {

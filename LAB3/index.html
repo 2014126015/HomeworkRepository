@@ -5,51 +5,38 @@
 	<title>인터넷프로그래밍과제2</title>
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
-<body>
-	<h1>Welcome to INTERNET-PROGRAMMING SHOP</h1>
-	<div><a href = "index.html" class="a_unmarked">메인페이지</a><a href="login.html" class="a_unmarked">로그인 </a><p class="inline_p">회원가입</p></div>
+<body class="main_body">
+	
+	<header class="header_text">
+		고슴도치분양상점	
+	</header>
 	<hr>
-	<p>개인정보 (필수)</p>
-	<form>
-		<div>
-			<label class="question_label">이름:</label>
-			<input id="name" type="text" placeholder="이름을 입력하세요" autofocus="">
-		</div>
-		<div>
-			<label for="birth" class="question_label">생일:</label>
-			<input id="birth" type="date">
-		</div>
-		<div>
-			<label for="grade" class="question_label">학년:</label>
-			<input id="grade" type="number" max="4" min="1">
-		</div>
-		<div>
-			<label for="mail" class="question_label">Email:</label>
-			<input id="mail" type="email" placeholder="name@domail.com">
-		</div>
-		<div>
-			<label for="phone" class="question_label">전화번호:</label>
-			<input id="phone" type="tel" placeholder="###-####-####" pattern="\(\d{3}\)-\d{4}-\d{4}" required />
-		</div>
-		<div>
-			<label for="userid" class="question_label">유저아이디:</label>
-			<input id="userid" type="text" placeholder="아이디를 입력하세요" autocomplete="on">
-		</div>
-		<div>
-			<label for="userpw" class="question_label">비밀번호:</label>
-			<input id="userpw" type="password" >
-		</div>
-		<div>
-			<label for="userpw2" class="question_label">비밀번호확인:</label>
-			<input id="userpw2" type="password" >
-		</div>
-		<div>
-			<input id="submit_signup" type="submit" value="제출하기" class="button_submit">
-			<input id="clear_signup" type="reset" value="다시작성" class="button_clear">
-		</div>
-	</form>
-	<hr>
+	<nav>
+	<div>
+		<span class="inline_p">메인페이지</span>
+		<a href="login.html" class="a_unmarked">로그인</a>
+		<a href="signup.html">회원가입</a>
+	</div>
+	</nav>
+	
+	<section>
+	<h2>html5</h2>
+	<div class="box">
+		<img src="photo1.jpg">
+	</div>
+	<div class="box">
+		<img src="photo2.jpg">
+	</div>
+	</section>
+	
 
+	<footer>
+	<h2>마켓컬리소개</h2>
+	<p id="hedge_info">
+		넓은 의미로는 고슴도치과(Erinaceidae)에 속한 포유류의 총칭이고, 좁게는 국내 서식종인 고슴도치(Amur hedgehog, Erinaceus amurensis)를 가리킨다. 국내 서식종 기준으로 자연 서식지는 러시아 아무르와 연해주, 중국 중앙부에서 동부(남부 해안가와 북부 제외), 만주, 한반도 등지이다. 애완용으로 기르는 종은 한국 고슴도치가 아니라 아프리카산의 네발가락고슴도치(Four-toed hedgehog, Atelerix albiventris)와 알제리고슴도치(Algerian hedgehog, A. algirus)의 교배종이다.
+	</p>
+	</footer>
+	<hr>
 
 </body>
 </html>
